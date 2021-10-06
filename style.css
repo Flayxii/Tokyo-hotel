@@ -80,11 +80,11 @@ section{
 }
 .moma{
     justify-content: center;
-    width: 100vw 1080px;
+    width: 100%;
     align-items: center;
 }
 hr{
-    border-bottom: soild 2px black;
+    border-bottom: solid 2px black;
     width: 30%;
 }
 h2{
@@ -96,6 +96,7 @@ h2{
     text-align: end;
 }
 footer{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
