@@ -2,6 +2,12 @@ body{
     margin: 0 auto;
     width: 100%;
     max-width: 1400px;
+    background-image: url(./assets/images/napstablookkpng.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 20%;
+    background-position: center;
+    background-position: left;
 }
 header{
     background-color: #dfdcdc;
@@ -83,6 +89,7 @@ hr{
 h2{
     font-size: 40px;
     color: gray;
+    max-width: 580px;
 }
 .right{
     text-align: end;
