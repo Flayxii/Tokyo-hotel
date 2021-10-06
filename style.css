@@ -173,4 +173,7 @@ html{
     .moma img{
         max-width: 70%;
     }
+    footer{
+        margin-top: 50px;
+    }
 }
