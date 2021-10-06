@@ -1,45 +1,53 @@
 body{
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
 }
 header{
     background-color: #dfdcdc;
     display: flex;
-    width: 100vw 100%;
-    height: 35px;
+    width:  100%;
     align-items: center;
     justify-content: center;
 }
 #nav{
     display: flex;
     align-items: center;
-    width: 100vw 100%;
+    width: 100%;
     padding: 0;
 
 }
+#phone{
+    padding-right: .2em;
+}
 #nav li{
-    position: relative;
-    display: inline;
+    justify-content: space-between;
+    list-style: none;
 }
 a:link{
     text-decoration: none;
 }
 #nav a{
     justify-content: space-between;
-    line-height: 200%;
-    font-style: normal;
-    display: inline-block;
     margin: 7px;
+    text-align: center;
     
 }
 #nav a:visited{
     color: black;
 }
-#nav a:hover{
+#nav li:hover{
     background-color: black;
+}
+#nav a:hover{
     color: white;
+    
+}
+main{
+    width: 100%;
 }
 #assault{
-    width: 100vw 100%;
+    width:  100%;
     display: flex; 
     margin: auto;
     justify-content: center;
@@ -54,7 +62,7 @@ a:link{
     max-width: 350px;
 }
 #dwd{
-    width: 100vw 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -67,6 +75,10 @@ section{
     justify-content: center;
     width: 100vw 1080px;
     align-items: center;
+}
+hr{
+    border-bottom: soild 2px black;
+    width: 30%;
 }
 h2{
     font-size: 40px;
@@ -106,4 +118,59 @@ footer a{
 }
 html{
     scroll-behavior: smooth;
+}
+@media screen and (max-width: 415px) {
+    #nav {
+        width: 100%;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    #nav ul{
+        width: 100%;
+    }
+    header{
+
+        background-color: rgba(255, 255, 255, 0);
+    }
+    #nav li{
+        text-align: center;
+        width: 100%;
+        margin: .3em 0 .3em 0;
+        background-color: #c4c4c4;
+        color: white;
+    }
+    img{
+        max-width: 100%;
+    }
+    #assault{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .division1{
+        margin: 20px 0;
+    }
+    .division1 p{
+    margin: 0 auto;
+    padding: 0 0 1em 0;
+    }
+    .moma{
+        flex-direction: column;
+        text-align: center;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .right{
+        text-align: center;
+    }
+    .moma img{
+        order: -1;
+
+    }
+    .moma img{
+        max-width: 70%;
+    }
 }
